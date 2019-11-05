@@ -1,0 +1,70 @@
+div.border > div{
+  border: 1px solid black;
+
+}
+table {
+  width: 90%;
+}
+td {
+  text-align: center;
+  min-width: 30%;
+}
+div.PH {
+  background-color: rgb(150,150,150);
+}
+div.EURO{
+  background-color: rgb(100,100,100);
+}
+div.G {
+  background-color: #8D98A6;
+}
+div.Dance{
+  background-color: rgb(75,75,75);
+  color: rgb(200,200,200);
+}
+div.Latin{
+  background-color: rgb(210,210,210);
+}
+div.Calculus{
+  background-color: rgb(175,175,175);
+}
+div.CS{
+  background-color: rgb(20,20,20);
+  color: rgb(215,215,215);
+}
+div.English{
+  background-color: rgb(135,135,135);
+}
+div.Theater{
+  background-color: rgb(60,60,60);
+  color: rgb(220,220,220);
+}
+div.Music{
+  background-color: rgb(30,30,30);
+  color: rgb(200,200,200);
+}
+div.Art{
+  background-color: rgb(175, 175, 175);
+}
+div.VGP{
+  background-color: rgb(130,130,130);
+
+}
+div.Length > div{
+  height: 65px;
+}
+div.Time {
+  width: 90px;
+}
+div.container {
+  padding-left:8%;
+}
+div.inCenter{
+  text-align: center;
+  padding-top: 4%;
+  font-size: 20px;
+
+}
+a:hover{
+  font-size: 20px;
+}
