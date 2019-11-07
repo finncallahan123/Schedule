@@ -3,130 +3,703 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="css/style.css">
     <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <h1>Finn's Schedule</h1>
-    <div align="center" class="container">
-      <table>
-      <tr>
-        <th class="col-xs-12">PIERREPONT</th>
-      </tr>
-      <tr>
-        <th id="name">Callahan, Phineas</th>
-        <th id="year">2019-2020</th>
-      </tr>
-      </table>
+    <div class="container">
+      <div class="row border">
+        <div class="col-xs-11 text-center">
+          <h1>Pierrepont</h1>
+        </div>
+      </div>
+      <div class="row head">
+        <div class="col-xs-5 text-left">
+          <h3>Finn</h3>
+        </div>
+        <div class="col-xs-6 text-right">
+            <h3>12.9.02</h3>
+        </div>
+      </div>
+      <nav class="visible-xs">
+        <a href="#monday">Monday</a>
+        <a href="#tuesday">Tuesday</a>
+        <a href="#wednesday">Wednesday</a>
+        <a href="#thursday">Thursday</a>
+        <a href="#friday">Friday</a>
+
+      </nav>
       <br>
-      <table>
-        <tr class="row">
-          <th>PERIOD</th>
-          <th>MONDAY</th>
-          <th>TUESDAY</th>
-          <th>WEDNESDAY</th>
-          <th>THURSDAY</th>
-          <th>FRIDAY</th>
-        </tr>
-        <tr class="row">
-          <th>8:30</th>
-          <td class="EURO">European Intellectual <br>History
-          <br>Tim
-          <br>D2
-          </td><td>Free</td>
-          <td>Physics<br>John<br>1A</td>
-          <td>Art<br>Mauricio<br>Art Room
-          </td>
-          <td class="YELL">English  <br>Jon<br>2C
-          </td>
-        </tr>
-        <tr>
-          <th>9:15</th>
-          <td>Physics I<br>John<br>1A</td>
-          <td class="LLV">Latin Lit Vergil <br>Marya<br>Right Lobby</td>
-          <td>Calculus<br>John<br>Lab</td>
-          <td class="CSS">Back-end Developement<br>Julio<br>2F</td>
-          <td>Free</td>
+      <div class="hidden-xs">
+      <div class="row border">
+        <div class="col-sm-2 Time">
+          <span>Time</span>
+        </div>
+        <div class="col-sm-2">
+          <span>Monday</span>
+        </div>
+        <div class="col-sm-2">
+          <span>Tuesday</span>
+        </div>
+        <div class="col-sm-2">
+          <span>Wednesday</span>
+        </div>
+        <div class="col-sm-2">
+          <span>Thursday</span>
+        </div>
+        <div class="col-sm-2">
+          <span>Friday</span>
+        </div>
 
-        </tr>
-        <tr>
-          <th>10:00</th>
-          <td>Calculus<br>John<br>Lab</td>
-          <td>Feds</td>
-          <td class="YELL">English<br>Jon<br>2C</td>
-          <td>Calculus<br>John<br>Lab</td>
-          <td class="CSS">Back-end Developement<br>Julio<br>2F
-          </td>
-        </tr>
-        <tr>
-          <th>10:45</th>
-          <td>Snack</td>
-          <td>Snack</td>
-          <td>Snack</td>
-          <td>Snack</td>
-          <td></td>
-        </tr>
-        <tr>
-          <th>10:55</th>
-          <td>Free</td>
-          <td class="CSS">Back-end Developement<br>Julio<br>2F</td>
-          <td class="Dance">Dance</td>
-          <td>Theater<br>Dominic<br>Left Lobby</td>
-          <td class="LLV">Latin lit Vergil<br>Marya<br>Right Lobby</td>
-        </tr>
-        <tr>
-          <th>11:40</th>
-          <td>Advisory<br>Jon</td>
-          <td>Music<br>Justin<br>Music Room</td>
-          <td class="Dance">Dance</td>
-          <td>Music<br>Justine<br>2F</td>
-          <td class="EURO">European Intellectual History<br>Tim<br>D2</td>
+      </div>
+      <div class="row border Length">
+        <div class="col-sm-2 Time">
+          <span>8:30</span>
+        </div>
+        <div class="col-sm-2 EURO">
+          <span>Euro<br> Tim<br>D2</span>
+        </div>
+        <div class="col-sm-2">
+          <span>Free</span>
+        </div>
+        <div class="col-sm-2 PH">
+          <span>Physics I<br>John<br>1A</span>
+        </div>
+        <div class="col-sm-2 Art">
+          <span>Art<br>Mauricio<br>Art room</span>
+        </div>
+        <div class="col-sm-2 English">
+          <span>English<br>Jon<br>2C</span>
+        </div>
 
-        </tr>
-        <tr>
-          <th>12:25</th>
-          <td>Lunch</td>
-          <td>Lunch</td>
-          <td>Art</td>
-          <td>Lunch</td>
-          <td>Lunch</td>
-        </tr>
-        <tr>
-          <th>1:10</th>
-          <td class="LLV">Latin Lit Vergil <br>Marya<br>Right Lobby</td>
-          <td class="EURO">European Intellectual<br> History<br>Tim<br>D2</td>
-          <td>Video Game Puppetry<br>Eddie<br>1A</td>
-          <td class="Dance">Dance</td>
-          <td>Calculus<br>John<br>Lab</td>
+      </div>
+      <div class="row border Length">
+        <div class="col-sm-2 Time">
+          <span>9:15</span>
+        </div>
+        <div class="col-sm-2 PH">
+          <span>Physics<br>John<br>1A</span>
+        </div>
+        <div class="col-sm-2 Latin">
+          <span>Latin<br>Marya<br>Right Lobby</span>
+        </div>
+        <div class="col-sm-2 Calculus">
+          <span>Calculus<br>John<br>Lab</span>
+        </div>
+        <div class="col-sm-2 CS">
+          <span>CS<br>Julio<br>2F</span>
+        </div>
+        <div class="col-sm-2">
+          <span>Free</span>
+        </div>
 
-        </tr>
-        <tr>
-          <th>1:55</th>
-          <td class="YELL">English<br>Jon<br>2C</td>
-          <td>Physics I<br>John<br>1A</td>
-          <td>Free</td>
-          <td class="YELL">English<br>Jon<br>2C</td>
-          <td>Free</td>
+      </div>
+      <div class="row border Length">
+        <div class="col-sm-2 Time">
+          <span>10:00</span>
+        </div>
+        <div class="col-sm-2 Calculus">
+          <span>Calculus<br>John<br>Lab</span>
+        </div>
+        <div class="col-sm-2">
+          <span>Feds</span>
+        </div>
+        <div class="col-sm-2 English">
+          <span>English<br>Jon<br>2C</span>
+        </div>
+        <div class="col-sm-2 Calculus">
+          <span>Calculus<br>John<br>Lab</span>
+        </div>
+        <div class="col-sm-2 CS">
+          <span>CS<br>Julio<br>2F</span>
+        </div>
 
-        </tr>
-        <tr>
-          <th>2:40</th>
-          <td>Theater<br>Dominic<br>Left Lobby</td>
-          <td>Free</td>
-          <td class="LLV">Latin Lit Vergil <br>Marya<br>Right Lobby</td>
-          <td class="EURO">European Intellectual <br>History<br>Tim<br>D2</td>
-          <td>Physics I<br>John<br>1A</td>
-        </tr>
+      </div>
+      <div class="row border ">
+        <div class="col-sm-2 Time">
+          <span>10:45</span>
+        </div>
+        <div class="col-sm-2 G">
+          <span>Snack</span>
+        </div>
+        <div class="col-sm-2 G">
+          <span>Snack</span>
+        </div>
+        <div class="col-sm-2 G">
+          <span>Snack</span>
+        </div>
+        <div class="col-sm-2 G">
+          <span>Snack</span>
+        </div>
+        <div class="col-sm-2 G">
+          <span>Snack</span>
+        </div>
 
+      </div>
+      <div class="row border Length">
+        <div class="col-sm-2 Time">
+          <span>10:55</span>
+        </div>
+        <div class="col-sm-2">
+          <span>Free</span>
+        </div>
+        <div class="col-sm-2 CS">
+          <span>CS<br>Julio<br>2F</span>
+        </div>
+        <div class="col-sm-2 Dance">
+          <span>Dance</span>
+        </div>
+        <div class="col-sm-2 Theater">
+          <span>Theater<br>Dominic<br>Left Lobby</span>
+        </div>
+        <div class="col-sm-2 Latin">
+          <span>Latin<br>Marya<br>Right Lobby</span>
+        </div>
 
-      </table>
+      </div>
+      <div class="row border Length">
+        <div class="col-sm-2 Time">
+          <span>11:40</span>
+        </div>
+        <div class="col-sm-2">
+          <span>Free</span>
+        </div>
+        <div class="col-sm-2 Music">
+          <span>Music<br>Justine<br>Music Room</span>
+        </div>
+        <div class="col-sm-2 Dance">
+          <span>Dance</span>
+        </div>
+        <div class="col-sm-2 Music">
+          <span>Music<br>Justin<br>2F</span>
+        </div>
+        <div class="col-sm-2 EURO">
+          <span>Euro<br>Tim<br>D2</span>
+        </div>
+
+      </div>
+      <div class="row border">
+        <div class="col-sm-2 Time">
+          <span>12:25</span>
+        </div>
+        <div class="col-sm-2 G">
+          <span>Lunch</span>
+        </div>
+        <div class="col-sm-2 G">
+          <span>Lunch</span>
+        </div>
+        <div class="col-sm-2 G">
+          <span>Lunch</span>
+        </div>
+        <div class="col-sm-2 G">
+          <span>Lunch</span>
+        </div>
+        <div class="col-sm-2 G">
+          <span>Lunch</span>
+        </div>
+
+      </div>
+      <div class="row border Length">
+        <div class="col-sm-2 Time">
+          <span>1:10</span>
+        </div>
+        <div class="col-sm-2 Latin">
+          <span>Latin<br>Marya<br>Right Lobby</span>
+        </div>
+        <div class="col-sm-2 EURO">
+          <span>Euro<br>Tim<br>Music Room</span>
+        </div>
+        <div class="col-sm-2 VGP">
+          <span>VGP<br>Eddie<br>1A</span>
+        </div>
+        <div class="col-sm-2 Dance">
+          <span>Dance</span>
+        </div>
+        <div class="col-sm-2 Calculus">
+          <span>Calculus<br>John<br>Lab</span>
+        </div>
+
+      </div>
+      <div class="row border Length">
+        <div class="col-sm-2 Time">
+          <span>1:55</span>
+        </div>
+        <div class="col-sm-2 English">
+          <span>English<br>Jon<br>2C</span>
+        </div>
+        <div class="col-sm-2 PH">
+          <span>Physics<br>John<br>Lab</span>
+        </div>
+        <div class="col-sm-2">
+          <span>Free</span>
+        </div>
+        <div class="col-sm-2 English">
+          <span>English<br> Jon<br>2C</span>
+        </div>
+        <div class="col-sm-2">
+          <span>Free</span>
+        </div>
+
+      </div>
+      <div class="row border Length">
+        <div class="col-sm-2 Time">
+          <span>2:40</span>
+        </div>
+        <div class="col-sm-2 Theater">
+          <span>Theater<br>Dominic<br>Left Lobby</span>
+        </div>
+        <div class="col-sm-2 ">
+          <span>Free</span>
+        </div>
+        <div class="col-sm-2 Latin">
+          <span>Latin<br>Marya<br>Right Lobby</span>
+        </div>
+        <div class="col-sm-2 EURO">
+          <span>Euro<br>Tim<br>D2</span>
+        </div>
+        <div class="col-sm-2 PH">
+          <span>Physics<br>John<br>1A</span>
+        </div>
+      </div> <!-- close for responsive design-===================================================================  , -->
+      </div>
+      <div class="hidden-sm visible-xs">
+        <!--Monday -->
+        <div class="row border Length">
+          <div class="col-xs-12 inCenter">
+            <span id="monday">Monday</span>
+          </div>
+
+        </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>8:30</span>
+        </div>
+        <div class="col-xs-10 EURO">
+          <span>Euro<br> Tim<br>D2</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>9:15</span>
+        </div>
+        <div class="col-xs-10 PH">
+          <span>Physics<br> John<br>1A</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>10:00</span>
+        </div>
+        <div class="col-xs-10 Calculus">
+          <span>Calculus<br> John<br>Lab</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>10:45</span>
+        </div>
+        <div class="col-xs-10 G">
+          <span>snack</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>10:55</span>
+        </div>
+        <div class="col-xs-10">
+          <span>Free</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>11:40</span>
+        </div>
+        <div class="col-xs-10">
+          <span>Free</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>12:25</span>
+        </div>
+        <div class="col-xs-10 G">
+          <span>Lunch</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>1:10</span>
+        </div>
+        <div class="col-xs-10 Latin">
+          <span>Latin<br> Marya<br>Right Lobby</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>1:55</span>
+        </div>
+        <div class="col-xs-10 English">
+          <span>English<br> Jon<br>2C</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>2:40</span>
+        </div>
+        <div class="col-xs-10 Theater">
+          <span>Theater<br> Dominic<br>Left Lobby</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-12 inCenter ">
+          <span id="tuesday">Tuesday</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>8:30</span>
+        </div>
+        <div class="col-xs-10">
+          <span>Free</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>9:15</span>
+        </div>
+        <div class="col-xs-10 Latin">
+          <span>Latin<br> Marya<br>Right Lobby</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>10:00</span>
+        </div>
+        <div class="col-xs-10">
+          <span>Feds</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>10:45</span>
+        </div>
+        <div class="col-xs-10 G">
+          <span>Snack</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>10:55</span>
+        </div>
+        <div class="col-xs-10 CS">
+          <span>CS<br> Julio<br>2F</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>11:40</span>
+        </div>
+        <div class="col-xs-10 Music">
+          <span>Music<br> Justine<br>Music Room</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>12:25</span>
+        </div>
+        <div class="col-xs-10 G">
+          <span>Lunch</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>1:10</span>
+        </div>
+        <div class="col-xs-10 EURO">
+          <span>Euro<br> Tim<br>D2</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>1:55</span>
+        </div>
+        <div class="col-xs-10 PH">
+          <span>Physics<br> John<br>Lab</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>2:40</span>
+        </div>
+        <div class="col-xs-10">
+          <span>Free</span>
+        </div>
+      </div>
+
+      <div class="row border Length">
+        <div class="col-xs-12 inCenter">
+          <span id="wednesday">Wednesday</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>8:30</span>
+        </div>
+        <div class="col-xs-10 PH">
+          <span>Physics<br> John<br>1A</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>9:15</span>
+        </div>
+        <div class="col-xs-10 Calculus">
+          <span>Calculus<br> John<br>Lab</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>10:00</span>
+        </div>
+        <div class="col-xs-10 English">
+          <span>English<br> Jon<br>2c</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>10:45</span>
+        </div>
+        <div class="col-xs-10 G">
+          <span>Snack</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>10:55</span>
+        </div>
+        <div class="col-xs-10 Dance">
+          <span>Dance</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>11:40</span>
+        </div>
+        <div class="col-xs-10 Dance">
+          <span>Dance</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>12:25</span>
+        </div>
+        <div class="col-xs-10 G">
+          <span>Lunch</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>1:10</span>
+        </div>
+        <div class="col-xs-10">
+          <span>VGP<br> Eddie<br>1A</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>1:55</span>
+        </div>
+        <div class="col-xs-10">
+          <span>Free</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>2:40</span>
+        </div>
+        <div class="col-xs-10 Latin">
+          <span>Latin<br> Marya<br>Right Lobby</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-12 inCenter">
+          <span id="thursday">Thursday</span>
+        </div>
+
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>8:30</span>
+        </div>
+        <div class="col-xs-10">
+          <span>Art<br> Mauricio<br>Art Room</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>9:15</span>
+        </div>
+        <div class="col-xs-10 CS">
+          <span>CS<br> Julio<br>2F</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>10:00</span>
+        </div>
+        <div class="col-xs-10 Calculus">
+          <span>Calculus<br> John<br>Lab</span>
+        </div>
+      </div><div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>10:45</span>
+        </div>
+        <div class="col-xs-10 G">
+          <span>Snack</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>10:55</span>
+        </div>
+        <div class="col-xs-10 Theater">
+          <span>Theater<br> Dominic<br>Theater</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>11:40</span>
+        </div>
+        <div class="col-xs-10 Music">
+          <span>Music<br> Justine<br>2F</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>12:25</span>
+        </div>
+        <div class="col-xs-10 G">
+          <span>Lunch</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>1:10</span>
+        </div>
+        <div class="col-xs-10 Dance">
+          <span>Dance</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>1:55</span>
+        </div>
+        <div class="col-xs-10 English">
+          <span>English<br> Jon<br>2C</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>2:40</span>
+        </div>
+        <div class="col-xs-10 EURO">
+          <span>Euro<br> Tim<br>D2</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-12 inCenter">
+          <span id="friday">Friday</span>
+        </div>
+
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>8:30</span>
+        </div>
+        <div class="col-xs-10 English">
+          <span>English<br> Jon<br>2C</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>9:15</span>
+        </div>
+        <div class="col-xs-10">
+          <span>Free</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>10:00</span>
+        </div>
+        <div class="col-xs-10 CS">
+          <span>CS<br> Julio<br>2F</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>10:45</span>
+        </div>
+        <div class="col-xs-10 G">
+          <span>Snack</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>10:55</span>
+        </div>
+        <div class="col-xs-10 Latin">
+          <span>Latin<br> Marya<br>Right Lobby</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>11:40</span>
+        </div>
+        <div class="col-xs-10 EURO">
+          <span>Euro<br> Tim<br>D2</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>12:25</span>
+        </div>
+        <div class="col-xs-10 G">
+          <span>Lunch</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>1:10</span>
+        </div>
+        <div class="col-xs-10 Calculus">
+          <span>Calculus<br> John<br>Lab</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>1:55</span>
+        </div>
+        <div class="col-xs-10">
+          <span>Free</span>
+        </div>
+      </div>
+      <div class="row border Length">
+        <div class="col-xs-2 ">
+          <span>2:40</span>
+        </div>
+        <div class="col-xs-10 PH">
+          <span>Physics<br> John<br>1A</span>
+        </div>
+      </div>
+
 
     </div>
   </body>
